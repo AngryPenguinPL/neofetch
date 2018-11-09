@@ -10,7 +10,7 @@ Group:		Shells
 Url:		https://github.com/dylanaraps/neofetch
 #Source0:	https://github.com/dylanaraps/neofetch/archive/%{version}/%{name}-%{version}.tar.gz
 #Source for master with experimental OpenMandriva support.
-Source: https://github.com/dylanaraps/neofetch/archive/%{oname}.zip
+Source0: https://github.com/dylanaraps/neofetch/archive/%{oname}.zip
 BuildArch: 	noarch
 
 %description
