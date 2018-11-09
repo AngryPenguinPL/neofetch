@@ -7,7 +7,9 @@ Release:	1
 License:	MIT
 Group:		Shells
 Url:		https://github.com/dylanaraps/neofetch
-Source0:	https://github.com/dylanaraps/neofetch/archive/%{version}/%{name}-%{version}.tar.gz
+#Source0:	https://github.com/dylanaraps/neofetch/archive/%{version}/%{name}-%{version}.tar.gz
+#Source for master with experimental OpenMandriva support.
+Source: https://github.com/dylanaraps/neofetch/archive/801760a01ba7cce2d2c0d02f704c75bd36adceae.zip
 BuildArch: 	noarch
 
 %description
@@ -16,7 +18,7 @@ Neofetch displays information about your system next to an
 image, your OS logo, or any ascii file of your choice. 
 
 %prep
-%setup -q
+%setup -qn %{name}-801760a01ba7cce2d2c0d02f704c75bd36adceae
 
 %build
 %make
